@@ -27,7 +27,7 @@ export default function Home() {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
-              Authorization: "Bearer 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",
+              Authorization: "Bearer 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",
             },
             body: JSON.stringify({
               inputs: `${inputText} ${initialPrompt} in the style of:  ${styleText} painted with or in ${artType}`,
