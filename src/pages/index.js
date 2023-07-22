@@ -57,7 +57,7 @@ export default function Home() {
     return (
         <div className="bg-indigo-800 max-w-full min-h-screen text-center">
             <div>
-                <h1 className="text-4xl font-semibold mb-4 pt-8 text-white">Generate Art</h1>
+                <h1 className="text-4xl font-semibold mb-4 pt-8 text-white">Generate Random Image</h1>
             </div>
             <p className="text-white">{initialPrompt}</p>
             <form className="max-w-md mx-auto" onSubmit={handleSubmit}>
