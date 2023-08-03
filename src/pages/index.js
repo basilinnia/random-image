@@ -30,7 +30,7 @@ export default function Home() {
               Authorization: "Bearer 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",
             },
             body: JSON.stringify({
-              inputs: `${inputText} ${initialPrompt} in the style of:  ${styleText} painted with or in ${artType}`,
+              inputs: `${inputText} in the style of:  ${styleText} painted with or in ${artType}`,
               num_inference_steps: 1200,
             }),
           });
